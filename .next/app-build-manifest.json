@@ -1,0 +1,119 @@
+{
+  "pages": {
+    "/dashboard/admin/subCategories/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/admin/subCategories/page.js"
+    ],
+    "/dashboard/admin/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/admin/layout.js"
+    ],
+    "/dashboard/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/layout.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/dashboard/admin/subCategories/new/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/admin/subCategories/new/page.js"
+    ],
+    "/dashboard/seller/stores/[storeUrl]/products/new/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/seller/stores/[storeUrl]/products/new/page.css",
+      "static/chunks/app/dashboard/seller/stores/[storeUrl]/products/new/page.js"
+    ],
+    "/dashboard/seller/stores/[storeUrl]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/seller/stores/[storeUrl]/layout.js"
+    ],
+    "/dashboard/seller/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/seller/layout.js"
+    ],
+    "/dashboard/seller/stores/[storeUrl]/products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/seller/stores/[storeUrl]/products/page.css",
+      "static/chunks/app/dashboard/seller/stores/[storeUrl]/products/page.js"
+    ],
+    "/dashboard/seller/stores/[storeUrl]/products/[productId]/variants/[variantId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/seller/stores/[storeUrl]/products/[productId]/variants/[variantId]/page.css",
+      "static/chunks/app/dashboard/seller/stores/[storeUrl]/products/[productId]/variants/[variantId]/page.js"
+    ],
+    "/(store)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(store)/page.css",
+      "static/chunks/app/(store)/page.js"
+    ],
+    "/(store)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(store)/layout.js"
+    ],
+    "/(store)/browse/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(store)/browse/page.css",
+      "static/chunks/app/(store)/browse/page.js"
+    ],
+    "/(store)/product/[productSlug]/[variantSlug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(store)/product/[productSlug]/[variantSlug]/page.css",
+      "static/chunks/app/(store)/product/[productSlug]/[variantSlug]/page.js"
+    ],
+    "/(store)/cart/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(store)/cart/page.css",
+      "static/chunks/app/(store)/cart/page.js"
+    ],
+    "/(store)/checkout/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(store)/checkout/page.css",
+      "static/chunks/app/(store)/checkout/page.js"
+    ],
+    "/(store)/order/[orderId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(store)/order/[orderId]/page.css",
+      "static/chunks/app/(store)/order/[orderId]/page.js"
+    ],
+    "/dashboard/seller/stores/[storeUrl]/orders/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/seller/stores/[storeUrl]/orders/page.js"
+    ],
+    "/dashboard/seller/stores/[storeUrl]/shipping/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/seller/stores/[storeUrl]/shipping/page.js"
+    ],
+    "/dashboard/seller/stores/[storeUrl]/settings/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/seller/stores/[storeUrl]/settings/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ]
+  }
+}

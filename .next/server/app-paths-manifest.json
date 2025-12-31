@@ -1,0 +1,10 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(store)/order/[orderId]/page": "app/(store)/order/[orderId]/page.js",
+  "/dashboard/admin/subCategories/page": "app/dashboard/admin/subCategories/page.js",
+  "/dashboard/seller/stores/[storeUrl]/orders/page": "app/dashboard/seller/stores/[storeUrl]/orders/page.js",
+  "/dashboard/seller/stores/[storeUrl]/products/[productId]/variants/[variantId]/page": "app/dashboard/seller/stores/[storeUrl]/products/[productId]/variants/[variantId]/page.js",
+  "/dashboard/seller/stores/[storeUrl]/settings/page": "app/dashboard/seller/stores/[storeUrl]/settings/page.js",
+  "/dashboard/seller/stores/[storeUrl]/products/page": "app/dashboard/seller/stores/[storeUrl]/products/page.js",
+  "/dashboard/seller/stores/[storeUrl]/shipping/page": "app/dashboard/seller/stores/[storeUrl]/shipping/page.js"
+}

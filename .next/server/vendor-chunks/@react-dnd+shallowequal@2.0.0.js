@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/@react-dnd+shallowequal@2.0.0";
+exports.ids = ["vendor-chunks/@react-dnd+shallowequal@2.0.0"];
+exports.modules = {
+
+/***/ "(ssr)/./node_modules/.pnpm/@react-dnd+shallowequal@2.0.0/node_modules/@react-dnd/shallowequal/dist/shallowequal.esm.js":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@react-dnd+shallowequal@2.0.0/node_modules/@react-dnd/shallowequal/dist/shallowequal.esm.js ***!
+  \************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   shallowEqual: () => (/* binding */ shallowEqual)\n/* harmony export */ });\nfunction shallowEqual(objA, objB, compare, compareContext) {\n  var compareResult = compare ? compare.call(compareContext, objA, objB) : void 0;\n\n  if (compareResult !== void 0) {\n    return !!compareResult;\n  }\n\n  if (objA === objB) {\n    return true;\n  }\n\n  if (typeof objA !== 'object' || !objA || typeof objB !== 'object' || !objB) {\n    return false;\n  }\n\n  var keysA = Object.keys(objA);\n  var keysB = Object.keys(objB);\n\n  if (keysA.length !== keysB.length) {\n    return false;\n  }\n\n  var bHasOwnProperty = Object.prototype.hasOwnProperty.bind(objB); // Test for A's keys different from B.\n\n  for (var idx = 0; idx < keysA.length; idx++) {\n    var key = keysA[idx];\n\n    if (!bHasOwnProperty(key)) {\n      return false;\n    }\n\n    var valueA = objA[key];\n    var valueB = objB[key];\n    compareResult = compare ? compare.call(compareContext, valueA, valueB, key) : void 0;\n\n    if (compareResult === false || compareResult === void 0 && valueA !== valueB) {\n      return false;\n    }\n  }\n\n  return true;\n}\n\n\n//# sourceMappingURL=shallowequal.esm.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvLnBucG0vQHJlYWN0LWRuZCtzaGFsbG93ZXF1YWxAMi4wLjAvbm9kZV9tb2R1bGVzL0ByZWFjdC1kbmQvc2hhbGxvd2VxdWFsL2Rpc3Qvc2hhbGxvd2VxdWFsLmVzbS5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUE7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTs7QUFFQSxvRUFBb0U7O0FBRXBFLG9CQUFvQixvQkFBb0I7QUFDeEM7O0FBRUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBOztBQUV3QjtBQUN4QiIsInNvdXJjZXMiOlsid2VicGFjazovL211bHRpdmVuZG9yX2Vjb21tZXJjZS8uL25vZGVfbW9kdWxlcy8ucG5wbS9AcmVhY3QtZG5kK3NoYWxsb3dlcXVhbEAyLjAuMC9ub2RlX21vZHVsZXMvQHJlYWN0LWRuZC9zaGFsbG93ZXF1YWwvZGlzdC9zaGFsbG93ZXF1YWwuZXNtLmpzP2E5MzgiXSwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gc2hhbGxvd0VxdWFsKG9iakEsIG9iakIsIGNvbXBhcmUsIGNvbXBhcmVDb250ZXh0KSB7XG4gIHZhciBjb21wYXJlUmVzdWx0ID0gY29tcGFyZSA/IGNvbXBhcmUuY2FsbChjb21wYXJlQ29udGV4dCwgb2JqQSwgb2JqQikgOiB2b2lkIDA7XG5cbiAgaWYgKGNvbXBhcmVSZXN1bHQgIT09IHZvaWQgMCkge1xuICAgIHJldHVybiAhIWNvbXBhcmVSZXN1bHQ7XG4gIH1cblxuICBpZiAob2JqQSA9PT0gb2JqQikge1xuICAgIHJldHVybiB0cnVlO1xuICB9XG5cbiAgaWYgKHR5cGVvZiBvYmpBICE9PSAnb2JqZWN0JyB8fCAhb2JqQSB8fCB0eXBlb2Ygb2JqQiAhPT0gJ29iamVjdCcgfHwgIW9iakIpIHtcbiAgICByZXR1cm4gZmFsc2U7XG4gIH1cblxuICB2YXIga2V5c0EgPSBPYmplY3Qua2V5cyhvYmpBKTtcbiAgdmFyIGtleXNCID0gT2JqZWN0LmtleXMob2JqQik7XG5cbiAgaWYgKGtleXNBLmxlbmd0aCAhPT0ga2V5c0IubGVuZ3RoKSB7XG4gICAgcmV0dXJuIGZhbHNlO1xuICB9XG5cbiAgdmFyIGJIYXNPd25Qcm9wZXJ0eSA9IE9iamVjdC5wcm90b3R5cGUuaGFzT3duUHJvcGVydHkuYmluZChvYmpCKTsgLy8gVGVzdCBmb3IgQSdzIGtleXMgZGlmZmVyZW50IGZyb20gQi5cblxuICBmb3IgKHZhciBpZHggPSAwOyBpZHggPCBrZXlzQS5sZW5ndGg7IGlkeCsrKSB7XG4gICAgdmFyIGtleSA9IGtleXNBW2lkeF07XG5cbiAgICBpZiAoIWJIYXNPd25Qcm9wZXJ0eShrZXkpKSB7XG4gICAgICByZXR1cm4gZmFsc2U7XG4gICAgfVxuXG4gICAgdmFyIHZhbHVlQSA9IG9iakFba2V5XTtcbiAgICB2YXIgdmFsdWVCID0gb2JqQltrZXldO1xuICAgIGNvbXBhcmVSZXN1bHQgPSBjb21wYXJlID8gY29tcGFyZS5jYWxsKGNvbXBhcmVDb250ZXh0LCB2YWx1ZUEsIHZhbHVlQiwga2V5KSA6IHZvaWQgMDtcblxuICAgIGlmIChjb21wYXJlUmVzdWx0ID09PSBmYWxzZSB8fCBjb21wYXJlUmVzdWx0ID09PSB2b2lkIDAgJiYgdmFsdWVBICE9PSB2YWx1ZUIpIHtcbiAgICAgIHJldHVybiBmYWxzZTtcbiAgICB9XG4gIH1cblxuICByZXR1cm4gdHJ1ZTtcbn1cblxuZXhwb3J0IHsgc2hhbGxvd0VxdWFsIH07XG4vLyMgc291cmNlTWFwcGluZ1VSTD1zaGFsbG93ZXF1YWwuZXNtLmpzLm1hcFxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/.pnpm/@react-dnd+shallowequal@2.0.0/node_modules/@react-dnd/shallowequal/dist/shallowequal.esm.js\n");
+
+/***/ })
+
+};
+;
